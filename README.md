@@ -1,4 +1,4 @@
-# ipdb ip address to location(like country and city, ipv4 only)
+# ipdb ip address to location (like country and city, ipv4 only)
 
 This used to be my company's project.
 
@@ -38,5 +38,5 @@ this file can save result (ip \t address)
 
 you can change 2 you like result ,just edit ipdb.py
 
-
+sorry this version only chinese
 
