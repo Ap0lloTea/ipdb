@@ -1,4 +1,4 @@
-# ipdb ip address to location (like country and city, ipv4 only)
+# ipdb: ip address to location (like country and city, ipv4 only)
 
 [Chinese](https://github.com/Ap0lloTea/ipdb/edit/main/READMEcn.md)
 
