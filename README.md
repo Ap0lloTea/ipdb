@@ -12,6 +12,8 @@ So I choose to upload this project.
 
 temporary use
 
+unzip ipdb.zip you can get ipdb.db (Github max upload file size is 25mb)
+
 write ip list in ip.txt
 
 just run ipdb2.py
