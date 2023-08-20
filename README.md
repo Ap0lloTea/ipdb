@@ -8,7 +8,7 @@ I had a setback and wanted to start over.
 
 So I choose to upload this project.
 
-# sqlLite version(ipdb.db)
+# SqlLite version(ipdb.db)
 
 temporary use
 
