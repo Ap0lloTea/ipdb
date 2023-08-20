@@ -8,7 +8,17 @@ I had a setback and wanted to start over.
 
 So I choose to upload this project.
 
-# USE:
+# sqlLite version(ipdb.db)
+
+temporary use
+
+write ip list in ip.txt
+
+just run ipdb2.py
+
+result in addressINFO.txt
+
+# MySQL: for your service
 
 install mysql(Google Search)
 
