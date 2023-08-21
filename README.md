@@ -1,56 +1,44 @@
-# ipdb: ip address to location (like country and city, ipv4 only)
+## ipdb: ip address 2 location country and city ipv4 only
 
-[Chinese](https://github.com/Ap0lloTea/ipdb/edit/main/READMEcn.md)
+**HOW TO USE:**
 
-This used to be my company's project.
+Usage: python3 cnipdb.py -r ip.txt(default) -o addressINFO.txt(default)
 
-I had a setback and wanted to start over.
+Options:
 
-So I choose to upload this project.
+&nbsp;&nbsp;&nbsp;&nbsp;-h, --help            show this help message and exit
 
-# SqlLite version(ipdb.db)
+&nbsp;&nbsp;&nbsp;&nbsp;-r READFILE, --readfile=READFILE ip address file name
 
-temporary use
+&nbsp;&nbsp;&nbsp;&nbsp;-o OUTFILE, --outfile=OUTFILE output file name
 
-unzip ipdb.zip you can get ipdb.db (Github max upload file size is 25mb)
+**Decompress data:**
 
-write ip list in ip.txt
+``unzip ipdb.zip``
 
-just run ipdb2.py
+*you can get ipdb.db (Github max upload file size is 25mb)*
 
-result in addressINFO.txt
+*write ip list in ip.txt*
 
-# MySQL: for your service
-
-install mysql(Google Search)
-
-Modify database login restrictions and access restrictions
-
-import iplist.xlsx in database
-
-change the table name against the database or script (default table name:iprange)
-
-pip install mysql-connector-python
+``python3 cnipdb.py``
 
 or
 
-pip3 install mysql-connector-python
+``python3 cnipdb.py -r cnipdb.py -r ip.txt -o add.txt``
 
-write database account in ipdb.py
+*result in addressINFO.txt*
 
-write ip list in ip.txt
 
-run ipdb.py:
+# 中文
 
-python ipdb.py
+使用SQLite数据库查询ip地址归属地 在个人vps上也可以轻松使用 通常在批量查询时使用
 
-python3 ipdb.py
+需要解压ipdb.zip 因为GitHub上传限制的问题所以我打包了它
 
-python script can create a new file(addressINFO.txt)
+地址来源互联网(某厂商2021年的地址库) 准确性很高
 
-this file can save result (ip \t address)
+具体使用参考英文文档即可 开箱即用
 
-you can change 2 you like result ,just edit ipdb.py
+开箱即用
 
-sorry this version only chinese
-
+**若对代码有更改的建议请提Issues**
