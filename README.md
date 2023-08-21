@@ -16,7 +16,7 @@ Options:
 
 **``unzip ipdb.zip``**
 
-*you can get ipdb.db (Github max upload file size is 25mb)*
+*you can get ipdb.db*
 
 *write ip list in ip.txt* **Attention language choice**
 
