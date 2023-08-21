@@ -33,7 +33,7 @@ or
 *result save in addressINFO.txt*
 
 
-# 中文
+## 中文
 
 使用SQLite数据库查询ip地址归属地 在个人vps上也可以轻松使用 通常在批量查询时使用
 
