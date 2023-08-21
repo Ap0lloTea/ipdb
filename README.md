@@ -14,19 +14,23 @@ Options:
 
 **Decompress data:**
 
-``unzip ipdb.zip``
+**``unzip ipdb.zip``**
 
 *you can get ipdb.db (Github max upload file size is 25mb)*
 
-*write ip list in ip.txt*
+*write ip list in ip.txt* **Attention language choice**
 
-``python3 cnipdb.py``
+**``python3 enipdb.py`` &nbsp;&nbsp;&nbsp;&nbsp; ``python3 cnipdb.py``**
 
-or
+or 
 
-``python3 cnipdb.py -r cnipdb.py -r ip.txt -o add.txt``
+**``python3 cnipdb.py enipdb.py -r ip.txt -o add.txt``**
 
-*result in addressINFO.txt*
+or 
+
+**``python3 cnipdb.py cnipdb.py -r ip.txt -o add.txt``**
+
+*result save in addressINFO.txt*
 
 
 # 中文
