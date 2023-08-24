@@ -32,8 +32,14 @@ or
 
 *result save in addressINFO.txt*
 
+**``python3 netview.py``** is netstat -nao
+
+remote ip mark address
+
 
 ## 中文
+
+20230824 新增netview.py python运行后相当于 netstat -nao 并且标注了远程地址的归属地
 
 使用SQLite数据库查询ip地址归属地 在个人vps上也可以轻松使用 通常在批量查询时使用
 
